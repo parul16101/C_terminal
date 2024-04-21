@@ -1,26 +1,22 @@
 Kilo
 ===
 
-Kilo is a small text editor in less than 1K lines of code (counted with cloc).
+Kilo is a minimalist text editor crafted in less than 1,000 lines of code, as counted by cloc. Designed by Salvatore Sanfilippo, also known as Antirez, it embodies simplicity, efficiency, and ease of comprehension.
 
-A screencast is available here: https://asciinema.org/a/90r2i9bq8po03nazhqtsifksb
+Usage
 
-Usage: kilo `<filename>`
+To utilize Kilo, simply invoke it with a filename as follows:
+        kilo <filename>
 
 Keys:
 
-    CTRL-S: Save
-    CTRL-Q: Quit
-    CTRL-F: Find string in file (ESC to exit search, arrows to navigate)
+CTRL-S: Save
+CTRL-Q: Quit
+CTRL-F: Find string in file (ESC to exit search, arrows to navigate)
 
-Kilo does not depend on any library (not even curses). It uses fairly standard
-VT100 (and similar terminals) escape sequences. The project is in alpha
-stage and was written in just a few hours taking code from my other two
-projects, load81 and linenoise.
+Features
 
-People are encouraged to use it as a starting point to write other editors
-or command line interfaces that are more advanced than the usual REPL
-style CLI.
+Kilo is built without dependency on any external library, including curses. It leverages standard VT100 (and similar terminals) escape sequences for its functionality. Despite being in its alpha stage, Kilo demonstrates robustness and efficiency.
 
-Kilo was written by Salvatore Sanfilippo aka antirez and is released
-under the BSD 2 clause license.
+Development
+Initially conceived within just a few hours, Kilo amalgamates code from Antirez's previous projects, load81 and linenoise. It serves as an excellent foundation for developing more sophisticated text editors or command-line interfaces beyond the typical REPL style CLI.
